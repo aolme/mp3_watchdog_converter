@@ -30,10 +30,11 @@ def _convert(command,mp3_filename, logfile=True):
             proc.wait()
             
             if proc.returncode:
-                err = "\n".join(["Audio conversion: %s\n" % cmd,
-                "WARNING: this command returned an error:",
-                err.decode('utf8')])
-                raise IOError(err)
+                #err = "\n".join(["Audio conversion: %s\n" % cmd,
+                #"WARNING: this command returned an error:",
+                #err.decode('utf8')])
+                #raise IOError(err)
+                print("error")
                 
             del proc
             
