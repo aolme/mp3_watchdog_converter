@@ -1,5 +1,5 @@
 Add the line-
-@sh /home/pi/autostart.sh
 
-To-
-/etc/xdg/lxsession/LXDE-pi/autostart
+@lxterminal -e python3 /home/pi/mp3_watch.py
+
+#To-  /etc/xdg/lxsession/LXDE-pi/autostart
